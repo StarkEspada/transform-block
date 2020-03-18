@@ -1,0 +1,611 @@
+body{
+	margin: 0;
+}
+
+@font-face{
+	font-family: "OpenSans-BoldItalic"
+	scr: url(../fonts/OpenSans-BoldItalic.ttf);
+}
+
+.short-openSans-boldItalic{
+	font-family: OpenSans-BoldItalic
+}
+
+.new-block{
+	width: 178px;
+    height: 60px;
+    font-size: 25px;
+    margin-left: -183px;
+    vertical-align: top;
+    display: inline-block;
+}
+.container{
+	margin:auto;
+}
+
+.update{
+	width: 180px;
+    height: 70px;
+    margin-left: 30px;
+    margin-top: 335px;
+    vertical-align: top;
+    font-size: 25px;
+    cursor: pointer;
+}
+.width{
+	width: 60px;
+    background: #a5a5a5;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: top;
+}
+.height{
+	width: 60px;
+    background: #a5a5a5;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: top;
+}
+.border-top-left{
+	width: 60px;
+    background: #a5a5a5;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: top;
+}
+.border-top-right{
+	width: 60px;
+    background: #a5a5a5;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: top;
+}
+.border-bottom-left{
+	width: 60px;
+    background: #a5a5a5;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: top;
+}
+.border-bottom-right{
+	width: 60px;
+    background: #a5a5a5;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: top;
+}
+.transform{
+	width: 60px;
+    background: #a5a5a5;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: top;
+}
+.transform-rotate-x{
+	width: 60px;
+    background: #a5a5a5;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: top;
+}
+.transform-rotate-y{
+	width: 60px;
+    background: #a5a5a5;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: top;
+}
+.background{
+	width: 60px;
+    background: #a5a5a5;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: top;
+}
+.transform-rotate-3d{
+	width: 225px;
+    background: #a5a5a5;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+}
+.box-shadow{
+	width: 330px;
+    background: #a5a5a5;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.margin-left{
+	width: 60px;
+    background: #a5a5a5;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+}
+.margin-right{
+	width: 60px;
+    background: #a5a5a5;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+}
+.margin-top{
+	width: 60px;
+    background: #a5a5a5;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+}
+.margin-bottom{
+	width: 60px;
+    background: #a5a5a5;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+
+
+
+.line{
+	width: 100%;
+	height: 3px;
+	background: black;
+	margin-top: 10px;
+}
+.text{
+    width: 320px;
+    height: 40px;
+    color: black;
+    transform: rotate(89deg);
+    margin-top: 145px;
+    font-size: 25px;
+    text-align: center;
+    margin-left: -132px;
+}
+.textTwo{
+    width: 100%;
+    height: 40px;
+    color: black;
+    transform: rotate(0deg);
+    margin-top: 145px;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.param-width{
+	width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 160px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+}
+.param-height{
+	width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 160px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+}
+.param-border-radius-top-left{
+	width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 160px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+}
+.param-param-border-radius-top-right{
+	width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 160px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+}
+.param-border-radius-bottom-left{
+	width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 160px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+}
+.param-border-radius-bottom-right{
+	width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 160px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+}
+.param-transform{
+	width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 160px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+}
+.param-transform-rotate-x{
+	width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 160px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+}
+.param-transform-rotate-y{
+	width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 160px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+}
+.param-background{
+	width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 160px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+}
+.param-transform-rotate-3d-one{
+	width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 160px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+}
+.param-transform-rotate-3d-two{
+	width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 160px;
+}
+.param-transform-rotate-3d-tree{
+	width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 160px;
+}
+.param-transform-rotate-3d-for{
+	width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 160px;
+}
+.param-box-shadow-one{
+	width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-top: 160px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+}
+.param-box-shadow-two{
+	width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 160px;
+}
+.param-box-shadow-tree{
+	width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 160px;
+}
+.param-box-shadow-for{
+	width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 160px;
+}
+.param-box-shadow-color{
+	width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 160px;
+}
+.param-box-shadow-color-two{
+	width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.param-width-two{
+	width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+}
+.param-width-two-b{
+	width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-left: 14px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+}
+.param-margin-left{
+	width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 160px;
+}
+.param-margin-right{
+	width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 160px;
+}
+.param-margin-top{
+	width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 160px;
+}
+.param-margin-bottom{
+	width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 160px;
+}
+/*.param-overflow-hidden{
+	width: 40px;
+    height: 40px;
+    margin-top: 155px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+*/
+
+.column{
+	width: 50px;
+    background: #a5a5a5;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.element-one{
+	width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    background: white;
+    border-radius: 10px;
+    margin-top: 156px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 39px;
+    color: black;
+    margin-left: 2px;
+}
+.element-two{
+	width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    background: white;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 39px;
+    color: black;
+    margin-left: 2px;
+    margin-top: 7px;
+
+}
+/*.overflow-hidden-block{
+	width: 600px;
+	height: 600px;
+	background: red;
+	overflow: hidden;
+}*/
+.block{
+	width: 400px;
+    height: 300px;
+    background: gray;
+    transition: all 1s;
+    display: inline-block;
+    vertical-align: top;
+}
+.blockOne{
+	width: 400px;
+    height: 300px;
+    background: gray;
+    transition: all 1s;
+    display: inline-block;
+    vertical-align: top;
+}
+.block-overflow-hidden{
+	width: 600px;
+    height: 600px;
+    background: red;
+    transition: all 1s;
+    display: inline-block;
+    vertical-align: top;
+}
+.button-radio{
+	width: 30px;
+	height: 20px;
+}
